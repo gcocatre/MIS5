@@ -43,7 +43,7 @@ void computeMIS(Graph &original, Graph &g, vidSet &MIS, algorithm algo)
 void printHelp()
 {
     printf("Usage: ./MIS -n VERTEX_COUNT  [ -p EDGE_PERCENTAGE ] [ -e ] [ -o result.txt ]\n"
-           "   ou: ./MIS -i graph.txt [ -e ] [ -o result.txt ]\n\n"
+           "   or: ./MIS -i graph.txt [ -e ] [ -o result.txt ]\n\n"
            "    -h          Display help\n"
            "    -e          Run the exact algorithm\n"
            "    -i FILE     Load a file containing a graph\n"
