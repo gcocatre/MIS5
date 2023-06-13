@@ -10,7 +10,8 @@ This project is my implementation of an NP-complete problem in graph theory.
 
 Given a set of *vertices*, some of which are connected by *edges*, some of which are not,
 we want to find a subset a vertices that are not connected to any other vertices,
-with a cardinality that is as large as possible. Such a subset is called a **Maximum Independent Set**.
+with a cardinality that is as large as possible. Such a subset is called a
+[**Maximum Independent Set**](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)).
 There may be more than one subset with the same cardinality, but we only care about finding *one*.
 
 The *degree* of a vertex is the number of vertices it is connected to. In other words, it represents its number of
