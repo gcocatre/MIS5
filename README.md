@@ -9,7 +9,7 @@ it will probably be easier to compile it on a Linux system.
 This project is my implementation of an NP-complete problem in graph theory.
 
 Given a set of *vertices*, some of which are connected by *edges*, some of which are not,
-we want to find a subset a vertices that are not connected to any other vertices,
+we want to find a subset of vertices that are not connected to any other vertex,
 with a cardinality that is as large as possible. Such a subset is called a
 [**Maximum Independent Set**](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)).
 There may be more than one subset with the same cardinality, but we only care about finding *one*.
@@ -23,7 +23,7 @@ A vertex connected to two other vertices has a degree of *2*, and so on.
 The *support* of a vertex is the sum of the degrees of its immediate neighbors.
 E.g. a vertex that is connected to a vertex of degree 2 and to another vertex of degree 3, has a support value of 5.
 
-For that, we use both *heuristics* (algorithms that are fast and provide a solution that is *not* exact, but close
+In order to find a *MIS*, we use both *heuristics* (algorithms that are fast and provide a solution that is *not* exact, but close
 enough) and one *exact* algorithm (much slower but that provides a result that is known to be correct, i.e. there cannot
 be a better result).
 
